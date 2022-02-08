@@ -65,14 +65,16 @@ def get_filters():
             
                   
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, march, ... , june)
 
-
+    
    
 
 
     print('-'*40)
     return city, month, day
+
+
 
 
 def load_data(city, month, day):
